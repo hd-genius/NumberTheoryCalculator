@@ -3,4 +3,4 @@ module Sets.Evens where
 import Sets.Naturals
 
 evens :: [Int]
-evens = filter even naturals
+evens = map (*2) naturals
